@@ -1,0 +1,110 @@
+/* AllMeals.css */
+
+/* Main container for All Meals */
+.all-meals-container {
+    max-width: 1200px; /* Max width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  /* Title styles */
+  .all-meals-container h1 {
+    text-align: center; /* Center the title */
+    color: #4CAF50; /* Green color for title */
+    margin-bottom: 30px; /* Space below the title */
+  }
+  
+  /* Flex container for meal cards */
+  .meals-grid {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    justify-content: center; /* Center the items */
+  }
+  
+  /* Meal item styles */
+  .meal-card {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside the card */
+    margin: 20px; /* Margin around each card */
+    background-color: white; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.2s; /* Smooth scaling effect */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    width: 200px; /* Fixed width for cards */
+  }
+  
+  /* Meal card hover effect */
+  .meal-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  /* Image styles */
+  .meal-image {
+    position: relative; /* Position relative for positioning the icon */
+    width: 100%; /* Full width of the card */
+    overflow: hidden; /* Hide overflow for rounded corners */
+  }
+  
+  .meal-card img {
+    border-radius: 10px; /* Rounded corners for images */
+    width: 100%; /* Full width of the card */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Shopping cart button styles */
+  .add-to-cart {
+    position: absolute; /* Position absolutely within the meal-image */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Circle button */
+    cursor: pointer; /* Pointer cursor */
+    padding: 10px; /* Padding around the icon */
+    transition: background 0.2s; /* Smooth background change */
+  }
+  
+  .add-to-cart:hover {
+    background: rgba(255, 255, 255, 1); /* Solid white on hover */
+  }
+  
+  /* Meal title styles */
+  .meal-card h2 {
+    margin: 15px 0; /* Space around the title */
+    font-size: 1.5rem; /* Font size for meal title */
+    color: #333; /* Dark gray color */
+  }
+  
+  /* Meal area styles */
+  .meal-card p {
+    color: #777; /* Light gray color for area */
+    font-style: italic; /* Italicize the area */
+  }
+  /* AllMeals.css */
+
+/* Meal time selector styles */
+.meal-time-selector {
+    text-align: center; /* Center the label and select box */
+    margin-bottom: 20px; /* Space below the selector */
+  }
+  
+  .meal-time-selector label {
+    margin-right: 10px; /* Space between label and select */
+    font-size: 1.2rem; /* Font size for the label */
+  }
+  
+  .meal-time-selector select {
+    padding: 10px; /* Padding inside the select box */
+    font-size: 1rem; /* Font size for the select */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border style */
+    outline: none; /* Remove outline */
+  }
+  
+  .meal-time-selector select:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+  }
+  

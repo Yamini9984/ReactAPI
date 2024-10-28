@@ -1,0 +1,63 @@
+/* Style for the overall checkout container */
+.checkout-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  /* Heading style */
+  .checkout-container h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph style */
+  .checkout-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the image */
+  .checkout-container img {
+    max-width: 300px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the image */
+  .checkout-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Button style */
+  .checkout-container button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Add margin to the top of the button */
+  }
+  
+  /* Button hover effect */
+  .checkout-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Thank you message */
+  .checkout-container p.thank-you-message {
+    font-size: 1.5rem;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  

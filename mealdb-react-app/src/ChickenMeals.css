@@ -1,0 +1,79 @@
+/* ChickenMeals.css */
+
+/* Main container for Chicken Meals */
+.chicken-meals-container {
+    max-width: 1200px; /* Max width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  /* Title styles */
+  .chicken-meals-container h1 {
+    text-align: center; /* Center the title */
+    color: #4CAF50; /* Green color for title */
+    margin-bottom: 30px; /* Space below the title */
+  }
+  
+  /* Flex container for meal cards */
+  .meals-grid {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    justify-content: center; /* Center the items */
+  }
+  
+  /* Meal item styles */
+  .meal-card {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside the card */
+    margin: 20px; /* Margin around each card */
+    background-color: white; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.2s; /* Smooth scaling effect */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    width: 200px; /* Fixed width for cards */
+  }
+  
+  /* Meal card hover effect */
+  .meal-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  /* Image styles */
+  .meal-card img {
+    border-radius: 10px; /* Rounded corners for images */
+    width: 100%; /* Full width of the card */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Meal title styles */
+  .meal-card h2 {
+    margin: 15px 0; /* Space around the title */
+    font-size: 1.5rem; /* Font size for meal title */
+    color: #333; /* Dark gray color */
+  }
+  
+  /* Meal area styles */
+  .meal-card p {
+    color: #777; /* Light gray color for area */
+    font-style: italic; /* Italicize the area */
+  }
+  
+  /* Shopping cart button styles */
+  .add-to-cart {
+    display: inline-block; /* Display as block */
+    margin-top: 10px; /* Space above */
+    padding: 10px 15px; /* Padding around the text */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth background change */
+  }
+  
+  .add-to-cart:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
